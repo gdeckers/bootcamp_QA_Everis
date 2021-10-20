@@ -1,4 +1,4 @@
-package com.github.gdeckers.citiesapi.staties;
+package com.github.gdeckers.citiesapi.states;
 
 import com.github.gdeckers.citiesapi.countries.Country;
 import com.vladmihalcea.hibernate.type.json.JsonBinaryType;
