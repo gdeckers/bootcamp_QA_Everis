@@ -1,7 +1,7 @@
-package com.github.gdeckers.citiesapi.countries;
+package com.github.gdeckers.citiesapi.countries.resources;
 
-import com.github.gdeckers.citiesapi.countries.Country;
-import com.github.gdeckers.citiesapi.countries.repository.CountryRepository;
+import com.github.gdeckers.citiesapi.countries.entities.Country;
+import com.github.gdeckers.citiesapi.countries.repositories.CountryRepository;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.ResponseEntity;

@@ -1,6 +1,6 @@
-package com.github.gdeckers.citiesapi.states;
+package com.github.gdeckers.citiesapi.states.entities;
 
-import com.github.gdeckers.citiesapi.countries.Country;
+import com.github.gdeckers.citiesapi.countries.entities.Country;
 import com.vladmihalcea.hibernate.type.json.JsonBinaryType;
 import java.util.List;
 import javax.persistence.Basic;

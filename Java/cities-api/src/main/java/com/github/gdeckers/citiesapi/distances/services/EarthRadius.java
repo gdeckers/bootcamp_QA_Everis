@@ -1,4 +1,4 @@
-package com.github.gdeckers.citiesapi.distances.service;
+package com.github.gdeckers.citiesapi.distances.services;
 
 public enum EarthRadius {
     METERS("m", 6378168),

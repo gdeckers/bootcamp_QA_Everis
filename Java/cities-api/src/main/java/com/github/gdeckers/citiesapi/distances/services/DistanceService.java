@@ -1,16 +1,10 @@
-package com.github.gdeckers.citiesapi.distances.service;
-
-import static java.lang.Math.atan2;
-import static java.lang.Math.cos;
-import static java.lang.Math.sin;
-import static java.lang.Math.sqrt;
-import static java.lang.Math.toRadians;
+package com.github.gdeckers.citiesapi.distances.services;
 
 import java.util.Arrays;
 import java.util.List;
 
-import com.github.gdeckers.citiesapi.cities.City;
-import com.github.gdeckers.citiesapi.cities.CityRepository;
+import com.github.gdeckers.citiesapi.cities.entities.City;
+import com.github.gdeckers.citiesapi.cities.repositories.CityRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.data.geo.Point;

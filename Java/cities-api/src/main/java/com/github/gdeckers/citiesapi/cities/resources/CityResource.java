@@ -1,6 +1,7 @@
-package com.github.gdeckers.citiesapi.cities;
+package com.github.gdeckers.citiesapi.cities.resources;
 
-import com.github.gdeckers.citiesapi.cities.CityRepository;
+import com.github.gdeckers.citiesapi.cities.repositories.CityRepository;
+import com.github.gdeckers.citiesapi.cities.entities.City;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.web.bind.annotation.GetMapping;

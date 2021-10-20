@@ -1,4 +1,4 @@
-package com.github.gdeckers.citiesapi.countries;
+package com.github.gdeckers.citiesapi.countries.entities;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
